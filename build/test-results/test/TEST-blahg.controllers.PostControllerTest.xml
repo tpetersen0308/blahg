@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="blahg.controllers.PostControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-08-26T20:05:48" hostname="MacBook-Pro-4" time="5.755">
+<testsuite name="blahg.controllers.PostControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-08-26T22:42:44" hostname="MacBook-Pro-4" time="6.224">
   <properties/>
-  <testcase name="shouldUpdatePost" classname="blahg.controllers.PostControllerTest" time="0.977"/>
-  <testcase name="shouldShowPost" classname="blahg.controllers.PostControllerTest" time="0.775"/>
-  <testcase name="shouldShowAllPosts" classname="blahg.controllers.PostControllerTest" time="0.886"/>
-  <testcase name="shouldCreatePost" classname="blahg.controllers.PostControllerTest" time="0.777"/>
-  <testcase name="shouldDeletePost" classname="blahg.controllers.PostControllerTest" time="0.729"/>
-  <testcase name="showReturnsErrorWhenIdDoesntMatch" classname="blahg.controllers.PostControllerTest" time="0.798"/>
-  <testcase name="updateReturnsErrorWhenIdDoesntMatch" classname="blahg.controllers.PostControllerTest" time="0.811"/>
-  <system-out><![CDATA[2019-08-26 13:05:47.625  INFO 10375 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [blahg.controllers.PostControllerTest], using SpringBootContextLoader
-2019-08-26 13:05:47.626  INFO 10375 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [blahg.controllers.PostControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2019-08-26 13:05:47.626  INFO 10375 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [blahg.controllers.PostControllerTest]: PostControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2019-08-26 13:05:47.638  INFO 10375 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration blahg.Application for test class blahg.controllers.PostControllerTest
-2019-08-26 13:05:47.639  INFO 10375 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2019-08-26 13:05:47.639  INFO 10375 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7c5be129, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@452e2631, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@74874358, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2365973f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9468d3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@343fc95e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7aecd102, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@753f6d0f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@56ce418b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1c710735, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9b178, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ed0e363]
+  <testcase name="shouldUpdatePost" classname="blahg.controllers.PostControllerTest" time="1.285"/>
+  <testcase name="shouldShowPost" classname="blahg.controllers.PostControllerTest" time="0.877"/>
+  <testcase name="shouldShowAllPosts" classname="blahg.controllers.PostControllerTest" time="0.978"/>
+  <testcase name="shouldCreatePost" classname="blahg.controllers.PostControllerTest" time="0.776"/>
+  <testcase name="shouldDeletePost" classname="blahg.controllers.PostControllerTest" time="0.782"/>
+  <testcase name="showReturnsErrorWhenIdDoesntMatch" classname="blahg.controllers.PostControllerTest" time="0.77"/>
+  <testcase name="updateReturnsErrorWhenIdDoesntMatch" classname="blahg.controllers.PostControllerTest" time="0.754"/>
+  <system-out><![CDATA[15:42:40.549 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class blahg.controllers.PostControllerTest]
+15:42:40.554 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:42:40.561 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:42:40.582 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [blahg.controllers.PostControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:42:40.591 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [blahg.controllers.PostControllerTest], using SpringBootContextLoader
+15:42:40.594 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [blahg.controllers.PostControllerTest]: class path resource [blahg/controllers/PostControllerTest-context.xml] does not exist
+15:42:40.594 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [blahg.controllers.PostControllerTest]: class path resource [blahg/controllers/PostControllerTestContext.groovy] does not exist
+15:42:40.594 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [blahg.controllers.PostControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:42:40.595 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [blahg.controllers.PostControllerTest]: PostControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:42:40.643 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [blahg.controllers.PostControllerTest]
+15:42:40.713 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg/build/classes/java/main/blahg/Application.class]
+15:42:40.715 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration blahg.Application for test class blahg.controllers.PostControllerTest
+15:42:40.802 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [blahg.controllers.PostControllerTest]: using defaults.
+15:42:40.803 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:42:40.824 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16e6bb97, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7015afac, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@35b78d4b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2b12433b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@88b7fcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@553ec9bf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c6acb86, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@65d840ab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@367e2eca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15ae7a8b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1f12b543, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@38686312]
+15:42:40.826 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [blahg.controllers.PostControllerTest]
+15:42:40.827 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [blahg.controllers.PostControllerTest]
+15:42:40.827 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [blahg.controllers.PostControllerTest]
+15:42:40.827 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [blahg.controllers.PostControllerTest]
+15:42:40.831 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@472b1d00 testClass = PostControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5d9c606 testClass = PostControllerTest, locations = '{}', classes = '{class blahg.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{spring.config.name=blahg-test-h2, blahg.trx.datasource.url=jdbc:h2:mem:trxServiceStatus, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@19eadf86, [ImportsContextCustomizer@266206b2 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7c2a7466, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1af8134, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@fef49f3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [true] with mode [BEFORE_EACH_TEST_METHOD].
+15:42:40.832 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [blahg.controllers.PostControllerTest]
+15:42:40.832 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [blahg.controllers.PostControllerTest]
+15:42:40.956 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, spring.config.name=blahg-test-h2, blahg.trx.datasource.url=jdbc:h2:mem:trxServiceStatus, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -23,32 +40,36 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:47.655  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:47.655  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:47.928  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:47.935  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
-2019-08-26 13:05:47.989  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:48.047  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2019-08-26 13:05:48.048  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2019-08-26 13:05:48.064  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:41.201  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:41.202  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:41.734  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:41.796  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 1 repository interfaces.
+2019-08-26 15:42:42.228  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:42.267  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:42.408  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 15:42:42.624  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 15:42:42.698  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:48.068  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:48.087  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:48.088  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:48.333  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:48.342  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:48.518  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:48.518  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:48.530  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
-2019-08-26 13:05:48.542  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.901 seconds (JVM running for 6.437)
-2019-08-26 13:05:48.547  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:48.549  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
-2019-08-26 13:05:48.552  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:48.553  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:48.553  INFO 10375 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2019-08-26 13:05:48.555  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2019-08-26 13:05:48.557  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-08-26 15:42:42.759  INFO 64599 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-26 15:42:42.760  INFO 64599 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-26 15:42:42.887  INFO 64599 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-26 15:42:43.019  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:43.590  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:43.593  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:44.370  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:44.423  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:44.774  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:44.774  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:44.785  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
+2019-08-26 15:42:44.811  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 3.847 seconds (JVM running for 4.826)
+2019-08-26 15:42:44.859  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:44.861  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:44.877  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:44.879  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:44.879  INFO 64599 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-26 15:42:44.884  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-08-26 15:42:44.885  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -58,32 +79,33 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:48.576  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:48.576  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:48.696  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:48.702  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
-2019-08-26 13:05:48.753  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:48.805  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2019-08-26 13:05:48.806  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2019-08-26 13:05:48.820  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:44.903  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:44.904  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:45.040  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:45.047  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 1 repository interfaces.
+2019-08-26 15:42:45.102  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:45.113  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:45.323  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-08-26 15:42:45.324  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-08-26 15:42:45.341  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:48.823  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:48.855  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:48.855  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:49.100  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:49.110  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:49.313  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:49.313  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:49.320  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
-2019-08-26 13:05:49.333  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.775 seconds (JVM running for 7.228)
-2019-08-26 13:05:49.338  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:49.341  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
-2019-08-26 13:05:49.530  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:49.531  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:49.531  INFO 10375 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2019-08-26 13:05:49.533  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2019-08-26 13:05:49.536  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-08-26 15:42:45.344  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:45.377  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:45.377  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:45.684  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:45.693  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:45.900  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:45.900  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:45.906  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2019-08-26 15:42:45.921  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 1.033 seconds (JVM running for 5.936)
+2019-08-26 15:42:45.927  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:45.928  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:46.163  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:46.164  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:46.164  INFO 64599 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-26 15:42:46.166  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-08-26 15:42:46.168  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -93,32 +115,33 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:49.554  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:49.554  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:49.684  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:49.690  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
-2019-08-26 13:05:49.758  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:49.809  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
-2019-08-26 13:05:49.810  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
-2019-08-26 13:05:49.824  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:46.189  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:46.189  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:46.337  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:46.344  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2019-08-26 15:42:46.409  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:46.420  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:46.469  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-08-26 15:42:46.470  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-08-26 15:42:46.484  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:49.828  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:49.855  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:49.855  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:50.096  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:50.108  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:50.270  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:50.270  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:50.276  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
-2019-08-26 13:05:50.287  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.75 seconds (JVM running for 8.182)
-2019-08-26 13:05:50.291  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:50.292  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
-2019-08-26 13:05:50.305  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:50.306  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:50.306  INFO 10375 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2019-08-26 13:05:50.308  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2019-08-26 13:05:50.311  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-08-26 15:42:46.488  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:46.518  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:46.519  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:46.791  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:46.801  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:46.998  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:46.998  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:47.005  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2019-08-26 15:42:47.016  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.846 seconds (JVM running for 7.031)
+2019-08-26 15:42:47.021  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:47.023  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:47.040  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:47.041  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:47.041  INFO 64599 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-26 15:42:47.043  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-08-26 15:42:47.046  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -128,33 +151,34 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:50.328  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:50.328  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:50.438  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:50.444  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
-2019-08-26 13:05:50.487  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:50.539  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
-2019-08-26 13:05:50.540  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
-2019-08-26 13:05:50.557  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:47.063  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:47.063  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:47.175  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:47.181  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-08-26 15:42:47.230  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:47.242  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:47.293  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-08-26 15:42:47.294  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-08-26 15:42:47.306  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:50.560  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:50.591  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:50.592  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:50.835  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:50.844  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:51.006  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:51.006  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:51.013  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
-2019-08-26 13:05:51.025  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.712 seconds (JVM running for 8.92)
-2019-08-26 13:05:51.032  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:51.033  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
-2019-08-26 13:05:51.075  INFO 10375 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-08-26 13:05:51.191  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:51.192  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:51.192  INFO 10375 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2019-08-26 13:05:51.193  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
-2019-08-26 13:05:51.195  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2019-08-26 15:42:47.310  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:47.339  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:47.340  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:47.625  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:47.637  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:47.836  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:47.836  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:47.843  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2019-08-26 15:42:47.855  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.807 seconds (JVM running for 7.87)
+2019-08-26 15:42:47.859  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:47.861  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:47.895  INFO 64599 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-08-26 15:42:48.019  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:48.019  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:48.019  INFO 64599 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-26 15:42:48.021  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-08-26 15:42:48.024  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -164,32 +188,33 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:51.214  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:51.214  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:51.328  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:51.334  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
-2019-08-26 13:05:51.382  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:51.435  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
-2019-08-26 13:05:51.436  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
-2019-08-26 13:05:51.469  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:48.041  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:48.041  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:48.148  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:48.153  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-08-26 15:42:48.200  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:48.211  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:48.259  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-08-26 15:42:48.260  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-08-26 15:42:48.273  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:51.473  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:51.506  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:51.507  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:51.756  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:51.765  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:51.933  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:51.933  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:51.941  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
-2019-08-26 13:05:51.951  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.754 seconds (JVM running for 9.846)
-2019-08-26 13:05:51.956  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:51.958  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
-2019-08-26 13:05:51.969  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:51.969  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:51.970  INFO 10375 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2019-08-26 13:05:51.971  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
-2019-08-26 13:05:51.972  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2019-08-26 15:42:48.276  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:48.301  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:48.301  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:48.560  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:48.570  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:48.756  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:48.756  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:48.763  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2019-08-26 15:42:48.773  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.747 seconds (JVM running for 8.789)
+2019-08-26 15:42:48.777  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:48.779  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:48.795  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:48.796  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:48.796  INFO 64599 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-26 15:42:48.797  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-08-26 15:42:48.800  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -199,32 +224,33 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:51.984  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:51.984  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:52.089  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:52.094  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
-2019-08-26 13:05:52.143  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:52.199  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
-2019-08-26 13:05:52.200  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
-2019-08-26 13:05:52.212  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:48.812  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:48.813  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:48.911  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:48.917  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2019-08-26 15:42:48.966  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:48.980  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:49.024  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2019-08-26 15:42:49.025  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2019-08-26 15:42:49.039  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:52.216  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:52.243  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:52.244  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:52.476  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:52.484  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:52.655  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:52.655  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:52.661  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
-2019-08-26 13:05:52.670  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.697 seconds (JVM running for 10.565)
-2019-08-26 13:05:52.674  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:52.675  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
-2019-08-26 13:05:52.699  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:52.699  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:52.699  INFO 10375 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2019-08-26 13:05:52.700  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
-2019-08-26 13:05:52.701  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2019-08-26 15:42:49.042  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:49.067  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:49.067  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:49.316  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:49.328  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:49.529  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:49.530  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:49.538  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2019-08-26 15:42:49.550  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.749 seconds (JVM running for 9.565)
+2019-08-26 15:42:49.555  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:49.556  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:49.578  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:49.578  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:49.578  INFO 64599 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-26 15:42:49.579  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2019-08-26 15:42:49.581  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -234,32 +260,33 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:52.716  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:52.716  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:52.813  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:52.819  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
-2019-08-26 13:05:52.864  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:52.913  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
-2019-08-26 13:05:52.914  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
-2019-08-26 13:05:52.928  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:49.594  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:49.594  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:49.706  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:49.711  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-08-26 15:42:49.763  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:49.774  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:49.818  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2019-08-26 15:42:49.820  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2019-08-26 15:42:49.832  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:52.932  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:52.959  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:52.959  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:53.235  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:53.246  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:53.456  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:53.456  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:53.466  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 10 ms
-2019-08-26 13:05:53.478  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.775 seconds (JVM running for 11.373)
-2019-08-26 13:05:53.484  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:53.485  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
-2019-08-26 13:05:53.496  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:53.496  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:53.497  INFO 10375 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2019-08-26 13:05:53.498  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
-2019-08-26 13:05:53.499  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2019-08-26 15:42:49.836  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:49.858  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:49.858  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:50.114  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:50.123  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:50.317  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:50.317  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:50.324  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2019-08-26 15:42:50.333  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.751 seconds (JVM running for 10.348)
+2019-08-26 15:42:50.338  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:50.339  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:50.348  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:50.348  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:50.348  INFO 64599 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-26 15:42:50.349  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2019-08-26 15:42:50.350  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -269,27 +296,28 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.6.RELEASE)
 
-2019-08-26 13:05:53.518  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 10375 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
-2019-08-26 13:05:53.519  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
-2019-08-26 13:05:53.655  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-08-26 13:05:53.661  INFO 10375 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
-2019-08-26 13:05:53.717  INFO 10375 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5992290e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-26 13:05:53.776  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
-2019-08-26 13:05:53.778  INFO 10375 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
-2019-08-26 13:05:53.796  INFO 10375 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-08-26 15:42:50.363  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Starting PostControllerTest on MacBook-Pro-4 with PID 64599 (started by Travis in /Users/Travis/Development/8th-Light/Apprenticeship/sandbox/blahg)
+2019-08-26 15:42:50.363  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : No active profile set, falling back to default profiles: default
+2019-08-26 15:42:50.461  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 15:42:50.466  INFO 64599 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-08-26 15:42:50.511  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea07d5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:50.523  INFO 64599 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9e20ca8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 15:42:50.563  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2019-08-26 15:42:50.565  INFO 64599 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2019-08-26 15:42:50.576  INFO 64599 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-08-26 13:05:53.801  INFO 10375 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2019-08-26 13:05:53.828  INFO 10375 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5b797a55'
-2019-08-26 13:05:53.829  INFO 10375 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-08-26 13:05:54.087  INFO 10375 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-26 13:05:54.098  WARN 10375 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-08-26 13:05:54.272  INFO 10375 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2019-08-26 13:05:54.272  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2019-08-26 13:05:54.278  INFO 10375 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
-2019-08-26 13:05:54.289  INFO 10375 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.788 seconds (JVM running for 12.184)
-2019-08-26 13:05:54.295  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
-2019-08-26 13:05:54.297  INFO 10375 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
+2019-08-26 15:42:50.579  INFO 64599 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-26 15:42:50.608  INFO 64599 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@24aa114'
+2019-08-26 15:42:50.608  INFO 64599 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-26 15:42:50.877  INFO 64599 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 15:42:50.885  WARN 64599 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-26 15:42:51.070  INFO 64599 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-08-26 15:42:51.071  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-08-26 15:42:51.077  INFO 64599 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2019-08-26 15:42:51.085  INFO 64599 --- [    Test worker] blahg.controllers.PostControllerTest     : Started PostControllerTest in 0.733 seconds (JVM running for 11.101)
+2019-08-26 15:42:51.090  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=1, title=Plumbus, body=Welcome to the exciting world of Plumbus ownership! A Plumbus will aid many things in life, making life easier. With proper maintenance, handling, storage, and urging, Plumbus will provide you with a lifetime of better living and happiness.)
+2019-08-26 15:42:51.091  INFO 64599 --- [    Test worker] blahg.LoadDatabase                       : Preloading Post(id=2, title=Otter Space, body=A treatise on the ecology and territorial behaviors of river otters.)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

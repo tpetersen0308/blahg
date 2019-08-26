@@ -43,7 +43,7 @@ public class PostControllerTest {
   public void shouldShowAllPosts() throws Exception {
     mockMvc.perform(get("/posts"))
       .andExpect(status().isOk())
-      .andExpect(jsonPath("$", hasSize(2)))
+      .andExpect(jsonPath("$._embedded.postList", hasSize(2)))
       .andExpect(content().string(containsString("Plumbus")))
       .andExpect(content().string(containsString("Otter Space")));
   }
