@@ -32,10 +32,15 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("org.springframework.boot:spring-boot-starter-hateoas")
+    compile("org.springframework.security:spring-security-oauth2-client")
+    compile("org.springframework.security:spring-security-oauth2-jose")
+//    compile("org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-security")
     compile("com.fasterxml.jackson.core:jackson-databind:2.9.9")
     compile("com.h2database:h2")
-    implementation "org.projectlombok:lombok:1.18.8"
+    implementation("org.projectlombok:lombok:1.18.8")
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile("org.springframework.security:spring-security-test")
     testImplementation 'org.hamcrest:hamcrest:2.1'
 }
 
